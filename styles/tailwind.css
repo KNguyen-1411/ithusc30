@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.container {
+  @apply max-w-[1024px] mx-auto px-6;
+}
+.center {
+  @apply flex justify-center items-center;
+}
+.glow {
+  text-shadow: 0 0 30px #d0eafb;
+}

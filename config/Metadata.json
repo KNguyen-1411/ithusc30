@@ -1,0 +1,34 @@
+{
+  "title": "Chào mừng 30 năm thành lập khoa Công nghệ thông tin",
+  "description": "Chào mừng 30 năm thành lập khoa Công nghệ thông tin, Đại học Khoa học, Đại học Huế! - Welcome to the 30th Anniversary of the Faculty of Information Technology, University of Science, Hue University!",
+  "keywords": [
+    "Khoa Công nghệ thông tin",
+    "Đại học Khoa học",
+    "Đại học Huế",
+    "30 năm",
+    "30th Anniversary"
+  ],
+  "author": "Khanh Nguyen",
+  "robots": "index, follow",
+  "openGraph": {
+    "type": "website",
+    "url": "https://github.com/KNguyen-1411",
+    "title": "Chào mừng 30 năm thành lập khoa Công nghệ thông tin",
+    "description": "Chào mừng 30 năm thành lập khoa Công nghệ thông tin, Đại học Khoa học, Đại học Huế! - Welcome to the 30th Anniversary of the Faculty of Information Technology, University of Science, Hue University!",
+    "siteName": "Khoa Công nghệ thông tin",
+    "images": [
+      {
+        "url": "/og-image.jpg",
+        "alt": "Chào mừng 30 năm thành lập khoa Công nghệ thông tin"
+      }
+    ],
+    "locale": "vi_VN"
+  },
+  "twitter": {
+    "card": "knguyen1411b",
+    "site": "@knguyen1411b",
+    "creator": "@knguyen1411b",
+    "title": "Chào mừng 30 năm thành lập khoa Công nghệ thông tin",
+    "description": "Chào mừng 30 năm thành lập khoa Công nghệ thông tin, Đại học Khoa học, Đại học Huế! - Welcome to the 30th Anniversary of the Faculty of Information Technology, University of Science, Hue University!"
+  }
+}

@@ -1,0 +1,227 @@
+.training_timeline .container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0px auto;
+  max-width: 1166px;
+}
+
+@media (min-width: 768px) {
+  .training_timeline .container {
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .training_timeline .container {
+    padding: 0 90px;
+  }
+}
+
+.training_timeline .title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #4580c2;
+  text-align: center;
+  margin-bottom: 34px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .training_timeline .title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .training_timeline .title {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .training_timeline .roadmap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
+
+.training_timeline .roadmap_step {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap_step {
+    border-radius: 20px;
+    padding: 50px;
+    border: none;
+    position: relative;
+  }
+}
+
+@media (min-width: 1024px) {
+  .training_timeline .roadmap_step {
+    padding: 50px 40px 30px 50px;
+  }
+}
+
+.training_timeline .roadmap_step .down_icon {
+  margin: 15px 0 29px 21px;
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap_step .down_icon {
+    display: none;
+  }
+}
+
+.training_timeline .roadmap_step .step_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap_step .step_header {
+    justify-content: space-between;
+  }
+}
+
+.training_timeline .roadmap_step .step_header .count {
+  font-size: 20px;
+  font-weight: 700;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 19px;
+  background-color: white;
+  animation: lenxuong 1s infinite;
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap_step .step_header .count {
+    width: 115px;
+    height: 115px;
+    font-size: 35px;
+    position: absolute;
+  }
+}
+.training_timeline .roadmap_step .step_header .label-pc {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap_step .step_header .label-pc {
+    display: block;
+    width: 60px;
+  }
+}
+
+.training_timeline .roadmap_step .step_body {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
+
+.training_timeline .roadmap_step .step_body .label {
+  width: 40px;
+  margin-right: 29px;
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap_step .step_body .label {
+    display: none;
+  }
+}
+
+.training_timeline .roadmap_step .step_body .description {
+  font-size: 18px !important;
+  color: #003056;
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap_step .step_body .description {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap .left {
+    border-left: solid 2px white;
+    border-bottom: solid 2px white;
+  }
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap .left .count {
+    top: -57.5px;
+    left: -57.5px;
+  }
+}
+
+.training_timeline .roadmap .right:last-child {
+  border: none;
+}
+
+@media (min-width: 1024px) {
+  .training_timeline .roadmap .right:last-child {
+    border-left: solid 2px white;
+    border-radius: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap .right {
+    border-right: solid 2px white;
+    border-bottom: solid 2px white;
+  }
+}
+
+@media (min-width: 1024px) {
+  .training_timeline .roadmap .right {
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .training_timeline .roadmap .right .count {
+    top: -57.5px;
+    right: -57.5px;
+  }
+}
+ 
+@media (min-width: 1024px) {
+  .training_timeline .roadmap .right .count {
+    left: -57.5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .training_timeline .roadmap .right-pc {
+    border-right: solid 2px white;
+    border-bottom: solid 2px white;
+    border-bottom-right-radius: 20px;
+  }
+}
+.bg-prussian-blue-white {
+  color: white !important;
+  background: #003056 !important;
+}
+
+@keyframes lenxuong{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}

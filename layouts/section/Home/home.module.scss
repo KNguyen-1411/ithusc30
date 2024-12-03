@@ -1,0 +1,70 @@
+.tagList {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.5rem 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  padding: 4rem 0 3rem 0;
+  overflow: hidden;
+  animation: fadeIn 1.6s ease forwards;
+}
+
+.loopSlider {
+  .inner {
+    display: flex;
+    width: fit-content;
+    animation: loop var(--duration) linear infinite var(--direction);
+  }
+}
+
+.tag {
+  margin-right: 1.4rem; 
+  border-radius: 5%;
+  box-shadow:
+    0 0.1rem 0.2rem rgb(0 0 0 / 20%),
+    0 0.1rem 0.5rem rgb(0 0 0 / 30%),
+    0 0.2rem 1.5rem rgb(0 0 0 / 40%);
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  aspect-ratio: initial;
+}
+
+.fade {
+  pointer-events: none;
+  background:#123754;
+  opacity: 0.75;
+  position: absolute;
+  inset: 0;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ovl{
+  height: 100%;
+  min-height: 100vh;
+  color: white !important; 
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
