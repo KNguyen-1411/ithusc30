@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import h from './home.module.scss'
+
 export default function BackgroundHome() {
   const duration = '20s'
   const images1 = Array.from(
@@ -35,6 +36,7 @@ export default function BackgroundHome() {
               width={300} // Adjust width as needed
               height={200} // Adjust height as needed
               className={`${h.tag}`}
+              placeholder="empty"
             />
           ))}
         </div>
@@ -59,6 +61,7 @@ export default function BackgroundHome() {
               width={300} // Adjust width as needed
               height={200} // Adjust height as needed
               className={`${h.tag}`}
+              placeholder="empty"
             />
           ))}
         </div>
@@ -83,6 +86,7 @@ export default function BackgroundHome() {
               width={300} // Adjust width as needed
               height={200} // Adjust height as needed
               className={`${h.tag}`}
+              placeholder="empty"
             />
           ))}
         </div>
