@@ -11,7 +11,10 @@ export default function HomeSection() {
         <div
           className={`${h.ovl} container center flex-col md:flex-row text-center md:text-left md:scale-105`}
         >
-          <div className="mr-0 md:mr-12 mb-4  md:mb-10">
+          <div
+            className="mr-0 md:mr-12 mb-0  md:mb-10 
+          scale-[80%] md:scale-100"
+          >
             <Image
               src={Logo}
               alt="Logo"
@@ -20,7 +23,7 @@ export default function HomeSection() {
               style={{
                 width: 360,
               }}
-              className="scale-75 md:scale-100 y-in"
+              className="y-in"
             />
           </div>
           <div className="y-in">
@@ -33,7 +36,7 @@ export default function HomeSection() {
               </p>
             </div>
             <div className="flex items-center">
-              <div className="flex flex-col items-center relative">
+              <div className="flex flex-col items-center relative ps-2 md:ps-0">
                 <div className="flex glow">
                   <span className="font-bold tomorrow text-[150px] md:text-[180px] block leading-none ">
                     3
@@ -44,14 +47,14 @@ export default function HomeSection() {
                 </div>
                 <div className="home-ovl-hr"></div>
               </div>
-              <div className="flex flex-col ml-4 glow">
+              <div className="flex flex-col md:ml-4 ml-1 glow">
                 <p
                   className="text-3xl text-left md:text-5xl font-bold 
                 mb-8 md:mb-12 charm glow"
                 >
                   năm
                 </p>
-                <p className="text-[28px] md:text-4xl text-left font-bold">
+                <p className="text-[25px] md:text-4xl text-left font-bold">
                   Thành lập
                 </p>
               </div>

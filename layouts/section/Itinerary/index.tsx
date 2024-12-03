@@ -10,7 +10,7 @@ export default function ItinerarySection() {
       <div className="training_timeline pb-10 pt-2">
         <div className="container">
           <h1
-            className="text-prussian-blue-800 font-bold text-4xl md:text-5xl  pt-12 montserrat text-center"
+            className="text-prussian-blue-800 font-bold text-4xl md:text-5xl  pt-12 montserrat text-center pb-10 md:pb-0"
             data-aos="fade-in"
           >
             Hành trình 30 năm phát triển
