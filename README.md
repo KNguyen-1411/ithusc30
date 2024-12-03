@@ -19,6 +19,12 @@ _Hoàn thành: **02-12-2024**_
 
 ---
 
+### Mô tả
+
+    Lading page kỉ niệm 30 năm thành lập khoa Công nghệ thông tin, trường Đại học Khoa học, Đại học Huế.
+    Được viết bằng next js kết hợp next ui và tailwind cho giao diện trực quan
+    Trang web được tối ưu về seo với metadata của next js
+
 ### Phân Công Làm Việc
 
 - **Design**: Khánh Nguyên & Thanh Thúy

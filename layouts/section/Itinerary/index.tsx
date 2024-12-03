@@ -22,8 +22,8 @@ export default function ItinerarySection() {
               </div>
               <div className="step_body">
                 <p className="description">
-                  Ngày 13 tháng 12 năm 1994, Bộ Giáo Dục và Đào Tạo ra quyết
-                  định  thành lập Khoa Công nghệ thông tin tại Đại học Huế.
+                  Ngày 13 tháng 12 năm 1994, Bộ Giáo dục và Đào tạo ra quyết
+                  định thành lập khoa Công nghệ thông tin tại Đại học Huế.
                 </p>
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function ItinerarySection() {
               </div>
               <div className="step_body">
                 <p className="description">
-                  Ngày 01 tháng 06 năm 1995, Chính thức đào tạo cử nhân ngành
+                  Ngày 01 tháng 06 năm 1995, chính thức đào tạo cử nhân ngành
                   Công nghệ thông tin, trở thành 1 trong 6 khoa Công nghệ thông
                   tin trọng điểm trên toàn quốc.
                 </p>
@@ -50,7 +50,7 @@ export default function ItinerarySection() {
               </div>
               <div className="step_body">
                 <p className="description">
-                  Năm 2000, Đào tạo thạc sĩ chuyên ngành Khoa học máy tính được
+                  Năm 2000, đào tạo thạc sĩ chuyên ngành Khoa học máy tính được
                   đưa vào hoạt động.
                 </p>
               </div>
@@ -65,7 +65,7 @@ export default function ItinerarySection() {
               </div>
               <div className="step_body">
                 <p className="description">
-                  Năm 2010, Khoa Công nghệ thông tin được giao trọng trách đào
+                  Năm 2010, khoa Công nghệ thông tin được giao trọng trách đào
                   tạo tiến sĩ chuyên ngành Khoa học máy tính.
                 </p>
               </div>
@@ -77,7 +77,7 @@ export default function ItinerarySection() {
               </div>
               <div className="step_body">
                 <p className="description">
-                  Năm 2018, Mở ngành đào tạo cử nhân Kỹ thuật phần mềm (cơ chế
+                  Năm 2018, mở ngành đào tạo cử nhân Kỹ thuật phần mềm (cơ chế
                   đặc thù).
                 </p>
               </div>
@@ -92,7 +92,7 @@ export default function ItinerarySection() {
               </div>
               <div className="step_body">
                 <p className="description">
-                  Năm 2020, Đào tạo Thạc sĩ ngành Quản lí công nghệ thông tin.
+                  Năm 2020, đào tạo thạc sĩ ngành Quản lí công nghệ thông tin.
                 </p>
               </div>
             </div>

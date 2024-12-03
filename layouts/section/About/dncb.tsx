@@ -48,7 +48,7 @@ function Card({ number, label }: { number: number; label: string }) {
       initial={{ opacity: 0, y: 50 }}
       animate={controls}
       transition={{ duration: 1 }}
-      className="flex flex-col items-center w-36 p-6 shadow-md rounded-lg bg-white hover:shadow-xl transition-shadow duration-300"
+      className="flex flex-col items-center w-36 p-6 shadow-md rounded-lg bg-white hover:shadow-xl transition-shadow duration-300 min-h-40 center"
     >
       <p className="text-4xl font-extrabold text-blue-500">
         {startCount ? <CountUp end={number} duration={5} /> : '0'}

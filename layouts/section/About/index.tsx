@@ -34,10 +34,10 @@ export default function AboutSection() {
           <div className="center flex-1 mb-5">
             <p className="text-justify text-xl text-gray-700">
               Ngày 13/12/1994 Bộ Giáo dục và Đào tạo ký quyết định thành lập
-              khoa Công nghệ Thông tin (CNTT) thuộc trường Đại học Khoa học -
+              khoa Công nghệ thông tin (CNTT) thuộc trường Đại học Khoa học -
               Đại học Huế, một trong sáu khoa CNTT trọng điểm trên toàn quốc.
               Tuy nhiên, khoa CNTT chính thức hoạt động từ ngày 01/06/1995 với 6
-              thành viên chuyển từ Bộ môn Toán Ứng dụng của Khoa Toán – Cơ – Tin
+              thành viên chuyển từ Bộ môn Toán ứng dụng của Khoa Toán – Cơ – Tin
               học.
             </p>
           </div>
@@ -110,7 +110,7 @@ export default function AboutSection() {
             </CardBody>
             <hr />
             <CardFooter className="center text-gray-700 text-xl font-semibold">
-              Công nghệ phần mền
+              Công nghệ phần mềm
             </CardFooter>
           </Card>
           <Card
