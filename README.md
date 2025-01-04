@@ -3,6 +3,8 @@
 _Được viết bởi **Khánh Nguyên**_  
 _Hoàn thành: **02-12-2024**_
 
+**Kết quả: Đạt giải nhất cuộc thi thiết kế - lading page "Chào mừng 30 Năm Thành Lập Khoa Công Nghệ Thông Tin"**
+
 ---
 
 ### Công Nghệ Sử Dụng
